@@ -1,0 +1,20 @@
+.details{
+    background-color: #232425;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.details__box{
+    height: 100%;
+    width: 600px;
+    background-color:#2C2C30;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
