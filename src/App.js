@@ -7,14 +7,14 @@ import Details from './Details';
 function App() {
   return (
     <BrowserRouter>
-      
+      <div className="app">
       
       <Switch>
           <Route path="/" component={HomeScreen} exact />
           <Route path="/details" component={Details}  />
       </Switch>
 
-      
+      </div>
     </BrowserRouter>
   );
 }

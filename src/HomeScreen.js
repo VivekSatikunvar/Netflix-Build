@@ -4,13 +4,11 @@ import "./HomeScreen.css";
 import Nav from './Nav';
 import requests from './Requests';
 import Row from './Row';
-
+import {Link} from 'react-router-dom';
 
 function HomeScreen() {
     return (
-
-        <div className='app'>
-            <div className="homeScreen">
+        <div className="homeScreen">
             <Nav />
 
             {/* banner */}
@@ -57,7 +55,6 @@ function HomeScreen() {
                 fetchUrl={requests.fetchDocumentaries}
                 
             />
-        </div>
         </div>
     )
 }
