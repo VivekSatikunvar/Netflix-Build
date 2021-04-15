@@ -5,7 +5,7 @@ import Nav from './Nav';
 function Details() {
     return (
         <div className='details'>
-            <Nav />
+            
         </div>
     )
 }
